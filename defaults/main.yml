@@ -123,7 +123,7 @@ nsq_nsqd:
   #  require TLS for client connections (true, false, tcp_https)
   tls_root_ca_file:
   #  path to certificate authority file
-  worker_id: 255
+  node_id: 255
   #  unique seed for message ID generation (int) in range [0,4096) (will default to a hash of hostname) (default 225)
 
 nsq_nsqadmin:
