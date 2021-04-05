@@ -21,7 +21,7 @@ nsq_data_directory: /var/lib/nsq
 nsq_data_directory_mode: 0750
 
 nsq_binaries:
-  - nsq_pubsub
+#  - nsq_pubsub # This no longer seems to be in the package
   - nsq_stat
   - nsq_tail
   - nsq_to_file
