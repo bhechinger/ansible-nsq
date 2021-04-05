@@ -61,8 +61,8 @@ nsq_nsqlookupd_install: true
 nsq_owner: root
 nsq_group: root
 
-nsq_version: 0.3.8
-nsq_go_version: go1.6.2
+nsq_version: 1.2.0
+nsq_go_version: go1.12.9
 nsq_arch: linux-amd64
 
 nsq_install_directory: /opt
@@ -74,7 +74,6 @@ nsq_data_directory: /var/lib/nsq
 nsq_data_directory_mode: 0750
 
 nsq_binaries:
-  - nsq_pubsub
   - nsq_stat
   - nsq_tail
   - nsq_to_file
